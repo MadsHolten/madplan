@@ -536,6 +536,14 @@ img { display: block; }
   line-height: 1.5;
 }
 
+.source-link {
+  font-size: .85rem;
+  color: var(--primary);
+  word-break: break-all;
+  text-decoration: underline;
+}
+.source-link:hover { color: var(--primary-dk); }
+
 .plan-entry-box {
   background: var(--bg);
   border: 1.5px dashed var(--border);

@@ -1,6 +1,7 @@
 [
   {
     "name": "Pasta med tun, bagte tomater, kapers og oliven",
+    "source": "https://www.valdemarsro.dk/pasta-med-bagte-tomater-kapers-oliven/",
     "mealType": "Aftensmad",
     "servings": 4,
     "prepTime": "15 min",
@@ -36,6 +37,7 @@
   {
     "name": "Kartoffelsalat med varmrøget laks og æg",
     "mealType": "Aftensmad",
+    "source": "https://www.valdemarsro.dk/kartoffelsalat-med-sennepsdressing-bagte-tomater-og-knust-bacon/",
     "servings": 4,
     "prepTime": "45 min",
     "cookTime": "20 min",

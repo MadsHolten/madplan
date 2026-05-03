@@ -299,6 +299,11 @@ function openModal(id) {
         <div class="leftovers-box">${r.leftoversNote}</div>
       </div>
 
+      ${r.source ? `<div class="modal-section">
+        <h3>🔗 Originalopskrift</h3>
+        <a class="source-link" href="${r.source}" target="_blank" rel="noopener noreferrer">${r.source}</a>
+      </div>` : ''}
+
       <div class="modal-section">
         <h3>📋 Madplan-linje</h3>
         <div class="plan-entry-box">

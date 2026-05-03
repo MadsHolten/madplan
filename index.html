@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madplan – Ugentlig madplan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🥗</span>
+        <span class="logo-text">Madplan</span>
+      </div>
+      <button id="clear-btn" class="btn btn-ghost" hidden>Ryd valg</button>
+    </div>
+  </header>
+
+  <div class="app-layout">
+
+    <main class="recipes-panel">
+      <div class="filters">
+        <div class="filter-group">
+          <label class="filter-label" for="day-filter">Dag</label>
+          <select id="day-filter" class="select">
+            <option value="all">Alle dage</option>
+            <option>Mandag</option>
+            <option>Tirsdag</option>
+            <option>Onsdag</option>
+            <option>Torsdag</option>
+            <option>Fredag</option>
+            <option>Lørdag</option>
+            <option>Søndag</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="recipes-grid" id="recipes-grid">
+        <div class="loading">Henter opskrifter…</div>
+      </div>
+    </main>
+
+    <aside class="shopping-sidebar">
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">Indkøbsliste</h2>
+        <span class="badge" id="selected-count">0</span>
+      </div>
+      <div id="shopping-content" class="shopping-empty">
+        <span class="empty-icon">🛒</span>
+        <p>Vælg retter for at bygge<br />din indkøbsliste</p>
+      </div>
+      <div class="sidebar-actions" id="sidebar-actions" hidden>
+        <button class="btn btn-outline" id="copy-plan-btn">Kopiér madplan</button>
+        <button class="btn btn-primary" id="copy-list-btn">Kopiér indkøbsliste</button>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Recipe detail modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Luk">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

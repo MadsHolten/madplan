@@ -32,5 +32,47 @@
       "Tun"
     ],
     "id": 1
+  },
+  {
+    "name": "Kartoffelsalat med varmrøget laks og æg",
+    "mealType": "Aftensmad",
+    "servings": 4,
+    "prepTime": "45 min",
+    "cookTime": "20 min",
+    "nonPescetarianIngredients": [
+      {
+        "original": "150 g bacon i skiver",
+        "substitution": "400 g varmrøget laks, for protein og røget smag, samt 4 hårdkogte æg for ekstra protein."
+      }
+    ],
+    "proteinPerServing": "32g",
+    "shoppingList": [
+      "1 kg babykartofler",
+      "75 g feldsalat",
+      "25 g rucola",
+      "3 spsk purløg",
+      "300 g tomater",
+      "1 spsk olivenolie",
+      "tørret timian",
+      "4 spsk olivenolie (til dressing)",
+      "½ øko citron",
+      "2 spsk grov sennep",
+      "2 tsk honning",
+      "400 g varmrøget laks",
+      "4 æg"
+    ],
+    "suggestedDay": "Onsdag",
+    "leftoversNote": "Opbevares i en lufttæt beholder i køleskabet i op til 2 dage. Spises kold.",
+    "weeklyPlanEntry": "Ons – Aftensmad: Kartoffelsalat med varmrøget laks og æg · 45 min forberedelse, 20 min tilberedning · 4 pers. · ~32g protein",
+    "emoji": "🐟",
+    "picture": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "Dansk",
+      "Salat",
+      "Kartofler",
+      "Laks",
+      "Sommerret"
+    ],
+    "id": 2
   }
 ]

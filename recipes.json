@@ -76,5 +76,46 @@
       "Sommerret"
     ],
     "id": 2
+  },
+  {
+    "name": "Indisk dhal med raita",
+    "mealType": "Aftensmad",
+    "servings": 4,
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "nonPescetarianIngredients": [],
+    "proteinPerServing": "32g",
+    "shoppingList": [
+      "4 fed hvidløg",
+      "2 spsk ingefær, frisk",
+      "3 tsk mediumstærk karry",
+      "1 spsk stødt spidskommen",
+      "½ spsk stødt koriander",
+      "½ tsk stødt kardemomme",
+      "½ tsk chiliflager",
+      "6 dl grøntsagsbouillon",
+      "400 g røde linser",
+      "800 g hakkede tomater på dåse",
+      "2 spsk olivenolie",
+      "1 håndfuld frisk mynte",
+      "3 dl græsk yoghurt 10 %",
+      "½ agurk",
+      "1 fed hvidløg (til raita)",
+      "½ tsk stødt spidskommen (til raita)",
+      "1 håndfuld frisk koriander (til topping)"
+    ],
+    "suggestedDay": "Mandag",
+    "leftoversNote": "Dhal bliver kun bedre dagen efter. Opbevares i en lufttæt beholder i køleskabet i op til 3-4 dage. Varmes i en gryde eller mikroovn.",
+    "weeklyPlanEntry": "Man – Aftensmad: Indisk dhal med raita · 15 min forberedelse, 45 min tilberedning · 4 pers. · ~32g protein",
+    "emoji": "🐟",
+    "picture": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "Indisk",
+      "Vegetarisk",
+      "Linser",
+      "Gryderet",
+      "Hurtig"
+    ],
+    "id": 3
   }
 ]
